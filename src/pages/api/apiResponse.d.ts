@@ -10,7 +10,7 @@ export default interface ApiResponse {
 	/**
 	 * The data for the response.
 	 */
-	data?: [] | null;
+	data?: [] | {} | null;
 	/**
 	 * The timestamp for the response.
 	 */
